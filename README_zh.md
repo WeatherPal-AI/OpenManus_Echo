@@ -180,7 +180,7 @@ OpenManus 由 MetaGPT 社区的贡献者共同构建，感谢这个充满活力�
 
 ## 更新日志
 
-### v0.1.1 (2024-04-06)
+### v0.1.1 (2024-04-04)
 - 新增语音交互功能
   - 支持语音输入识别（使用 Google Speech Recognition API）
   - 支持文本转语音输出（使用 Google Text-to-Speech API）
