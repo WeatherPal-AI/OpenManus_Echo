@@ -177,7 +177,7 @@ OpenManus is built by contributors from MetaGPT. Huge thanks to this agent commu
 
 ## Changelog
 
-### v0.1.1 (2024-04-06)
+### v0.1.1 (2024-04-04)
 - Added Voice Interaction Features
   - Support for voice input recognition (using Google Speech Recognition API)
   - Support for text-to-speech output (using Google Text-to-Speech API)
