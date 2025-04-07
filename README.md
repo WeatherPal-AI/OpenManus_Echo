@@ -174,3 +174,29 @@ OpenManus is built by contributors from MetaGPT. Huge thanks to this agent commu
   howpublished = {\url{https://github.com/mannaandpoem/OpenManus}},
 }
 ```
+
+## Changelog
+
+### v0.1.1 (2024-04-06)
+- Added Voice Interaction Features
+  - Support for voice input recognition (using Google Speech Recognition API)
+  - Support for text-to-speech output (using Google Text-to-Speech API)
+  - Added speech processing dependencies (SpeechRecognition, gTTS, pydub)
+- Enhanced Configuration System
+  - Restructured configuration file to support multiple voice services
+  - Added configuration options for speech recognition and synthesis
+  - Support for both Google and Minimax text-to-speech services
+- Improved File Management
+  - Added temporary file directory management
+  - Optimized file path handling logic
+  - Support for audio file format conversion
+- Security Improvements
+  - Removed sensitive information from configuration files
+  - Replaced API keys with environment variables and placeholders
+  - Added configuration file examples
+
+### v0.1.0 (2024-03-07)
+- Initial Release
+  - Basic LLM integration
+  - Simple command-line interface
+  - Basic configuration system

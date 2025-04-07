@@ -177,3 +177,29 @@ OpenManus 由 MetaGPT 社区的贡献者共同构建，感谢这个充满活力�
   howpublished = {\url{https://github.com/mannaandpoem/OpenManus}},
 }
 ```
+
+## 更新日志
+
+### v0.1.1 (2024-04-06)
+- 新增语音交互功能
+  - 支持语音输入识别（使用 Google Speech Recognition API）
+  - 支持文本转语音输出（使用 Google Text-to-Speech API）
+  - 添加语音处理相关依赖（SpeechRecognition, gTTS, pydub）
+- 优化配置系统
+  - 重构配置文件结构，支持多种语音服务配置
+  - 添加语音识别和合成服务的配置选项
+  - 支持 Google 和 Minimax 语音合成服务
+- 改进文件管理
+  - 添加临时文件目录管理
+  - 优化文件路径处理逻辑
+  - 支持音频文件格式转换
+- 安全性改进
+  - 移除配置文件中的敏感信息
+  - 使用环境变量和占位符替代 API 密钥
+  - 添加配置文件示例
+
+### v0.1.0 (2024-03-07)
+- 初始版本发布
+  - 基础 LLM 集成
+  - 简单的命令行界面
+  - 基础配置系统
